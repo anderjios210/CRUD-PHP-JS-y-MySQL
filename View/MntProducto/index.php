@@ -705,33 +705,58 @@
         <div class="br-mainpanel">
         <div class="br-pageheader pd-y-15 pd-l-20">
             <nav class="breadcrumb pd-0 mg-0 tx-12">
-            <a class="breadcrumb-item" href="index.html">Bracket</a>
-            <span class="breadcrumb-item active">Blank Page</span>
+            <a class="breadcrumb-item" href="index.html">Mantenimiento</a>
+            <span class="breadcrumb-item active">Producto</span>
             </nav>
         </div><!-- br-pageheader -->
         <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
-            <h4 class="tx-gray-800 mg-b-5">Blank Page (Default Layout)</h4>
-            <p class="mg-b-0">Introducing Bracket admin template, the most handsome admin template of all time.</p>
+            <h4 class="tx-gray-800 mg-b-5">Producto</h4>
+            <p class="mg-b-0">Desde esta ventana podra dar mantenimiento a productos</p>
         </div>
 
         <div class="br-pagebody">
+            <div class="br-section-wrapper">
+                <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento de Producto</h6>                
+                <div class="table-wrapper">
+                    <table id="producto_data" class="table display responsive nowrap">
+                        <thead>
+                            <tr>
+                            <th class="wd-15p">Nombre</th>
+                            <th class="wd-15p"></th>
+                            <th class="wd-20p"></th>                            
+                            </tr>
+                        </thead>
+                        <tbody>
 
-            <!-- start you own content here -->
-
-        </div><!-- br-pagebody -->
-
+                        </tbody>
+                    </table>
+                </div>                    
+            </div>
         </div><!-- br-mainpanel -->
         <!-- ########## END: MAIN PANEL ########## -->
 
         <script src="../../Public/lib/jquery/jquery.js"></script>
-        <script src="../../Public/lib/popper.js/popper.js"></script>
-        <script src="../../Public/lib/bootstrap/bootstrap.js"></script>
-        <script src="../../Public/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
-        <script src="../../Public/lib/moment/moment.js"></script>
-        <script src="../../Public/lib/jquery-ui/jquery-ui.js"></script>
-        <script src="../../Public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
-        <script src="../../Public/lib/peity/jquery.peity.js"></script>
+    <script src="../../Public/lib/popper.js/popper.js"></script>
+    <script src="../../Public/lib/bootstrap/bootstrap.js"></script>
+    <script src="../../Public/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../Public/lib/moment/moment.js"></script>
+    <script src="../../Public/lib/jquery-ui/jquery-ui.js"></script>
+    <script src="../../Public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
+    <script src="../../Public/lib/peity/jquery.peity.js"></script>
+    <script src="../../Public/js/bracket.js"></script>
 
-        <script src="../../Public/js/bracket.js"></script>
+    <script src="../../Public/lib/datatables/jquery.dataTables.js"></script>
+    <script src="../../Public/lib/datatables-responsive/dataTables.responsive.js"></script>
+
+    <script src="../../Public/datatables/dataTables.buttons.min.js"></script>
+    <script src="../../Public/datatables/buttons.html5.min.js"></script>
+    <script src="../../Public/datatables/buttons.colVis.min.js"></script>
+    <script src="../../Public/datatables/jszip.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="../../Public/lib/select2/js/select2.min.js"></script>
+
+    <script type="text/javascript" src="mntproducto.js"></script>
     </body>
     </html>
