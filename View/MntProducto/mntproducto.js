@@ -56,4 +56,11 @@ $(document).ready(function () {
 	}).DataTable();
 });
 
+const editar = (prod_id) =>{
+    console.log(prod_id);
+}
+
+const eliminar = (prod_id) =>{
+console.log(prod_id);
+}
 init();
