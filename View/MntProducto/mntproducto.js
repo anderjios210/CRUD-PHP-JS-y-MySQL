@@ -6,14 +6,6 @@ const init=()=>{
 
 
 $(document).ready(function () {
-    $('#cat_id').select2({
-        dropdownParent: $("#modalmantenimiento")
-    });
-
-    $.post("../../Controller/Categoria.php?op=combo",function (data) {
-        $("#cat_id").html(data);
-    });
-
     tabla=$('#producto_data').dataTable({
 		"aProcessing": true,//Activamos el procesamiento del datatables
             "aServerSide": true,//Paginación y filtrado realizados por el servidor

@@ -35,6 +35,8 @@
         <link href="../../Public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
         <link href="../../Public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
         <link href="../../Public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../Public/lib/datatables/jquery.dataTables.css">
+        <link rel="stylesheet" href="../../Public/datatables/buttons.dataTables.min.css">
 
         <!-- Bracket CSS -->
         <link rel="stylesheet" href="../../Public/css/bracket.css">
@@ -735,7 +737,7 @@
         </div><!-- br-mainpanel -->
         <!-- ########## END: MAIN PANEL ########## -->
 
-        <script src="../../Public/lib/jquery/jquery.js"></script>
+    <script src="../../Public/lib/jquery/jquery.js"></script>
     <script src="../../Public/lib/popper.js/popper.js"></script>
     <script src="../../Public/lib/bootstrap/bootstrap.js"></script>
     <script src="../../Public/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
