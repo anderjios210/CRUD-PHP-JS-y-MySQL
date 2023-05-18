@@ -758,6 +758,7 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <script src="../../Public/lib/select2/js/select2.min.js"></script>
+    <script src="../../node_modules/axios/dist/axios.min.js"></script>
 
     <script type="text/javascript" src="mntproducto.js"></script>
     </body>
